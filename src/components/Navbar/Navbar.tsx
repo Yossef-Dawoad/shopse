@@ -13,10 +13,10 @@ const Navbar = () => {
         <p>Shopse</p>
       </div>
       <ul className="nav-items">  
-        <li onClick={()=> setActiveMenu('shop')}><Link to='/'>Shop</Link>{activeMenu==='shop'? <hr/> :<></>}</li>
-        <li onClick={()=> setActiveMenu('men')}><Link to='men'>Men</Link>{activeMenu==='men'? <hr/> :<></>}</li>
-        <li onClick={()=> setActiveMenu('women')}><Link to='women' >Women</Link>{activeMenu==='women'? <hr/> :<></>}</li>
-        <li onClick={()=> setActiveMenu('kids')}><Link to='kids'>Kids</Link>{activeMenu==='kids'? <hr/> :<></>}</li>
+        <li onClick={()=> setActiveMenu('shop')}><Link to='/' style={{ textDecoration:'none'}}>Shop</Link>{activeMenu==='shop'? <hr/> :<></>}</li>
+        <li onClick={()=> setActiveMenu('men')}><Link to='men'  style={{ textDecoration:'none'}}>Men</Link>{activeMenu==='men'? <hr/> :<></>}</li>
+        <li onClick={()=> setActiveMenu('women')}><Link to='women'  style={{ textDecoration:'none'}}>Women</Link>{activeMenu==='women'? <hr/> :<></>}</li>
+        <li onClick={()=> setActiveMenu('kids')}><Link to='kids' style={{ textDecoration:'none'}}>Kids</Link>{activeMenu==='kids'? <hr/> :<></>}</li>
       </ul>
     <div className="nav-authentication">
         <Link to='/auth'><button>Login</button></Link>
