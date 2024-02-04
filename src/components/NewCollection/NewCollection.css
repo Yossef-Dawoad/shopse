@@ -1,25 +1,26 @@
-.popular-container {
+.new-collection-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  height: 90vh;
+  /* height: 90vh; */
   margin-top: 50px;
 }
-popular-container h1 {
+.new-collection-container h1 {
   color: #171717;
   font-size: 50px;
   font-weight: 600;
 }
 
-.popular-container hr {
+.new-collection-container hr {
   width: 200px;
   height: 6px;
   border-radius: 10px;
   background: #252525;
 }
-.popular-items {
-  display: flex;
-  gap: 10px;
+.new-collection-items {
+  display: grid;
+  gap: 15px;
   margin: 50px;
+  grid-template-columns: repeat(3, 1fr);
 }
