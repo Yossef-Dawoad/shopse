@@ -1,7 +1,7 @@
 
-const ShopCatogeries = () => {
+const ShopCatogeries = ({category}:{category:string}) => {
   return (
-    <div>ShopCatogeries</div>
+    <div>ShopCatogeries {category} </div>
   )
 }
 
