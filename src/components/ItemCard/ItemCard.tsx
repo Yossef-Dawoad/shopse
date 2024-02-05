@@ -1,13 +1,5 @@
+import { ItemCardProps } from "../../assets/types/item_type";
 import "./ItemCard.css";
-
-type ItemCardProps = {
-  id: number;
-  title: string;
-  price: number;
-  rating?: number;
-  image: string;
-  discount: number;
-};
 
 const ItemCard = (props: ItemCardProps) => {
   return (

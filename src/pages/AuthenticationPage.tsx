@@ -1,8 +1,5 @@
-
 const AuthenticationPage = () => {
-  return (
-    <div>AuthenticationPage</div>
-  )
-}
+  return <div></div>;
+};
 
-export default AuthenticationPage
+export default AuthenticationPage;
